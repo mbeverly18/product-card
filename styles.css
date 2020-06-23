@@ -1,0 +1,154 @@
+*,
+*::before, 
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: inline-block;
+  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FCSFOTO-Background-Volleyball-Photography-Polyester%2Fdp%2FB07DMYDFMZ&psig=AOvVaw2xKJPAlM26exPyVOywgV43&ust=1592977851205000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKiXrpufl-oCFQAAAAAdAAAAABAD);
+  background-color: transparent;
+}
+
+img {
+  width: 200px;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 100vw;
+  height: 100vw;
+  padding: 20px;
+  background: #dfdfdf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 40px 
+}
+
+#header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+hr {
+    width: 60px;
+}
+
+#logo {
+  width: 65px;
+  height: 65px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+#mizunologo {
+  width: 65px;
+  height: 65px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+#nikelogo {
+  width: 65px;
+  height: 65px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+#tachikara {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#cyclone {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#clothing {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#ball {
+  width: 250px;
+  margin-left: 25px;
+}
+
+#shoe {
+    width: 275px;
+    margin-left: 15px;
+}
+
+#apparel {
+  width: 250px;
+  margin-left: 20px;
+  background: white;
+}
+
+#description {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#amount {
+  width: 80%;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+#av {
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+#category {
+  padding: 10px;
+  opacity: 0.8;
+  width: 20px;
+}
+
+#tags {
+  padding: 10px;
+}
+
+#tags ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+  background: rgba(8, 248, 196, 0.2);
+  margin-right: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #312f2f;
+}
+
+footer {
+  padding: 10px;
+  background: #ef626c;
+}
+
+footer p:first-child {
+  font-weight: bold;
+  margin: 10px 0;
+  opacity: .7;
+  background: #ef626c;
+}
+
+footer p.faded {
+  font-size: 14px;
+  background: #ef626c; 
+}
